@@ -56,5 +56,5 @@ function Card(props){
 
 
 export default App;
-export {Card};
+export {Card,};
 
