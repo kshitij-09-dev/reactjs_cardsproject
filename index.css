@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.greet{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+  background: skyblue;
+}
+.greet h1{
+  padding :20px 20px;
+  background-color: #ffe9c5;
+  color: #fa9191;
+  border-radius: 20px;
+
+}
+
+.card {
+  margin: 6%;
+  background: black;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
+  box-shadow: 0 13px 10px -7px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  float: left;
+  width: 21.25%;
+  height: 8%;
+
+  
+}
+
+.card:hover {
+  box-shadow: 0 30px 18px -7px rgba(0,0,0,0.2);
+}
+
+.card .container {
+  padding: 12px 20px;
+  background: whitesmoke;
+}
+.card .container:hover{
+  background: moccasin;
+}
+
+/*hooks*/
+
+.fhook{
+  padding: 60px;
+
+}
+.fhook button{
+  background: darkorange;
+  color: whitesmoke;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+
+
+@media(max-width: 768px){
+  .card{
+    margin-bottom: 20%;
+    float: none;
+    width: 83%;
+  }
+}
+
