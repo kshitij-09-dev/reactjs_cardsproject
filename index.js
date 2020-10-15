@@ -11,16 +11,6 @@ ReactDOM.render(
 <>
 
 {APP()}
-{/*
-lets add the numbers 10+10={Add(10,10)}
-<h2>{strng}</h2>
-<h2>{ghost}</h2>
-<h1>CHOOSE BEST 5 NETFLIX SERIES</h1>
-<ol>
-    <li>DARK</li>
-    <li>DARK 2</li>
-    <li>DARK 3</li>
-</ol>*/}
 
 {Sdata.map((val) =>
 {
@@ -35,17 +25,11 @@ lets add the numbers 10+10={Add(10,10)}
 
 )}
 
-{/*hook*/}
-
 <Fhook/>
 
-{/*hookend*/}
-
-{/*form*/}
 
 <Formh/>
 
-{/*formend*/}
 
 </>, 
 document.getElementById('root'));
