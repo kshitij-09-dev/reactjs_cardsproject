@@ -31,13 +31,6 @@ return(
 }
 
 
- const strng="Review now!";
- const ghost="Most trending web series?";
- function Add(a,b){
-  let Add=a+b;
-  return Add;
-}
-
 
 function Card(props){
   //console.log(props);
@@ -63,5 +56,5 @@ function Card(props){
 
 
 export default App;
-export {strng, ghost,Add,Card,};
+export {Card};
 
